@@ -113,6 +113,7 @@
                 signingKey: ((uaa-jwt.private_key))
       uaadb:
         db_scheme: postgresql
+        port: 5432
         databases:
         - tag: uaa
           name: &uaa_db uaa
