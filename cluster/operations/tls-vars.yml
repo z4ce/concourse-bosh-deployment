@@ -11,6 +11,7 @@
   path: /variables/- 
   value: 
     name: atc_tls
+    type: certificate
     options:
       ca: atc_ca
       common_name: ((concourse_host))
