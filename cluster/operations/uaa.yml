@@ -68,7 +68,7 @@
           active_key_label: key-12
           encryption_keys:
             - label: key-12
-              passphrase: ((uaa_encryption_passphrase))
+              passphrase: ((uaa-encryption-passphrase))
       uaa:
         url: &uaa-url "https://((concourse_host)):8443"
         port: -1
