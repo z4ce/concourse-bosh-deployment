@@ -16,7 +16,7 @@
 - type: replace
   path: /variables?/name=uaa-encryption-passphrase?
   value:
-    name: uaa-encrption-passphrase
+    name: uaa-encryption-passphrase
     type: password
 - type: replace
   path: /variables?/name=uaa-users-admin?
