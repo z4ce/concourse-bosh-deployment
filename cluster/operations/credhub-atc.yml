@@ -93,3 +93,12 @@
           providers:
           - name: int
             type: internal
+# Variables
+- type: replace
+  path: /variables?/name=concourse-ca?
+  value:
+    name: concourse-ca
+    type: certificate
+    options:
+      is_ca: true
+      common_name: Concourse CA
