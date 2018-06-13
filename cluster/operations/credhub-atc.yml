@@ -76,9 +76,6 @@
             - ((atc_tls.ca))
         data_storage:
           type: postgres
-          host: ((db_ip))
-          port: 5432
-
           database: &credhub_db credhub
           username: &credhub_db_role credhub
           password: &credhub_db_passwd ((credhub-db-password))

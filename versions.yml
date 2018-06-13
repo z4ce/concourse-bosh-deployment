@@ -10,6 +10,13 @@ concourse_version: '3.14.1'
 concourse_sha1: '6be91b70ecc7ce233d2aff5d03ed28c8eab3d132'
 concourse_windows_worker_version: '3.13.0'
 concourse_windows_worker_sha1: '98454e4863c3819f1ccfc1d0b0d07f6ee4efdb1b'
+
+uaa_version: 59
+uaa_sha1: "6aa5cd78892f4ea09070c0cf5155aa7a12c17d13"
+
+credhub_version: 1.9.3
+credhub_sha1: 648658efdef2ff18a69914d958bcd7ebfa88027a
+
 garden_runc_version: '1.14.0'
 garden_runc_sha1: 'be5e6d6a263be1437d99dc5e818deeb8ab2a03a4'
 postgres_version: '28'
